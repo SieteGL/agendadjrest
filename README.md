@@ -9,4 +9,4 @@ realizar las migraciones si es necesario, si existe algun problema elimnar todo 
 de dentro de las carpetas migrations
 
 
-#Omitir la palabra "Heredamos"...
+
