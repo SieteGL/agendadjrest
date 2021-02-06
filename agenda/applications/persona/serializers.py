@@ -95,7 +95,7 @@ class ReunionSerializer2(serializers.ModelSerializer):
     def get_days_since_joined(self, obj):
         return (now() - obj.persona.created).days       
 
-#ya no eredamos de modelserializer
+#ya no heredamos de modelserializer
 class ReunionSerializerLink(serializers.HyperlinkedModelSerializer):
 
     class Meta:
