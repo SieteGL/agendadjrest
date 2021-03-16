@@ -5,6 +5,7 @@ import sys
 
 
 def main():
+    #agregamos el local despues del settings
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'agenda.settings.local')
     try:
         from django.core.management import execute_from_command_line
